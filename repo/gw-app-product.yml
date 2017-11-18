@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: gw-app
+
+server:
+  port: 10201
+
+zuul:
+  routes:
+    account-app:
+      path: /account/**
+      serviceId: account-app
+    article-app:
+      path: /article/**
+      serviceId: article-app
