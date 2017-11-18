@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: account-app
+
+server:
+  port: 10301
