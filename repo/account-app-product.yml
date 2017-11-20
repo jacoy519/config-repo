@@ -1,8 +1,7 @@
 spring:
   application:
     name: account-app
-	
-	
+
   redis:
     host: localhost
     port: 6379
