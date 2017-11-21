@@ -6,6 +6,9 @@ server:
   port: 10201
 
 zuul:
+
+  sensitive-headers: 
+  
   routes:
     account-app:
       path: /account/**
