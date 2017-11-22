@@ -10,7 +10,7 @@ spring:
     store-type: redis
 
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/devchen?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://23.83.234.10:3306/blog?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: debian-sys-maint
     password: bNcWK7AZHnlRaMxj
     driver-class-name: com.mysql.jdbc.Driver
