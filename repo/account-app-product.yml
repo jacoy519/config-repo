@@ -10,9 +10,9 @@ spring:
     store-type: redis
 
   datasource:
-    url: jdbc:mysql://23.83.234.10:3306/blog?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-    username: debian-sys-maint
-    password: bNcWK7AZHnlRaMxj
+    url: jdbc:mysql://23.83.234.10:3306/spring_cloud?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: medivh519
     driver-class-name: com.mysql.jdbc.Driver
     tomcat:
      # 下面为连接池的补充设置，应用到上面所有数据源中
